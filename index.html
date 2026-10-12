@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+  <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +7,8 @@
     <title>Book Vibe</title>
 </head>
 <body>
-    <header>
-        <nav class="flex justify-between items-center mt-6">
+    <header class="sticky top-0 ">
+        <nav class="flex bg-white py-5 justify-between items-center mt-6">
             <h3 class="font-bold text-[28px] text-[#131313] text-nowrap ml-6">Book Vibe</h3>
             <ul class="hidden lg:flex items-center gap-4">
                 <li class="font-semibold text-[#23BE0A] border border-[#23BE0A] px-3.5 py-3 rounded-lg">Home</li>
@@ -23,45 +23,195 @@
 </header>
 <main>
 <!--Hero Section-->
-<section class="bg-[#131313]/5 rounded-2xl ml-13 -mt-85">
-<h3 class="font-bold text-[#131313] text-4xl flex flex-col justify-end ml-42 mt-90">Books to freshen up your bookshelf</h3>
+<section class="bg-[#131313]/5 rounded-2xl flex flex-col-reverse lg:flex-row items-center justify-around py-5 px-5">
 <div>
-    <button class="font-bold text-[20px] text-[#FFFFFF] bg-[#23BE0A] px-4 py-3 rounded-2xl text-nowrap ml-45 mt-55">View the list</button>
+    <h3 class="font-extrabold text-[#131313] px-5 py-5 text-4xl mb-6 ">Books to freshen up <br> your bookshelf</h3>
+<div class="space-x-3 mt-10">
+    <button class=" text-[20px] text-white bg-[#23BE0A] px-3 py-3 rounded-lg">View the list</button>
+</div>
 </div> 
 <div>
-    <img src="assets/Banner.png" alt="" class="ml-200 -mt-90">
+    <img src="assets/Banner.png" alt="">
 </div>
 </section>
 <div class="flex justify-center items-center">
-    <h3 class="font-bold text-[#131313] text-[40px]">Books</h3>
+    <h3 class="font-bold text-[#131313] text-[40px] mt-5 mb-5">Books</h3>
 </div>
 <!--Card Section-->
-<section class="grid-cols-1 md:grid-cols-2 lg:grid-cols-3" >
-<div class="px-6 py-6 border border-[#131313]/15 rounded-4xl">
-    <div class="w-full h-55 rounded-3xl bg-[#F3F3F3]">
-        <div class="p-4 ml-14">
-            <img src="assets/book1.png" alt="" class="object-cover mt-4 ml-4">
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-5">
+<div class="border p-6 border-[#E5E7E8] rounded-xl">
+        <div class=" bg-gray-100 rounded-t-xl flex justify-center items-center py-10">
+            <img src="assets/book1.png" alt="">
         </div>
         <div>
-             <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A]/5 px-4 py-1.75 rounded-4xl gap-10 mt-2">Young Adult</button>
-            <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A]/5 px-4 py-3 rounded-4xl gap-10 mt-2">Identity</button>
-            </div>
+             <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-1.75 rounded-4xl gap-10 mt-2">Young Adult</button>
+            <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-3 rounded-4xl gap-10 mt-2">Identity</button>
+        </div>
             <h3 class="font-bold text-[24px] text-[#131313] mt-4">The Catcher in the Rye</h3>
-            <p class="font-medium text-[16px] text-[#131313] mt-4">By: Awlad Hossain</p>
-            <hr class="border border-dotted mt-4">
+            <p class="font-medium text-[16px] text-[#131313] mt-4 mb-6">By: Awlad Hossain<p>
+            <hr class="border border-dashed mt-1 mb-1 bg-[#F3F3F3]">
             <div class="flex justify-between mt-6">
-                <p class="font-medium text-[16px] text-[#131313]/80">Fiction</p>
-                <p class="font-medium text-[16px] text-[#131313]/80">5.00</p>
-                
-                    <img src="assets/Vector.png" alt="" class="text-[#424242]">
+                <p class="font-medium text-[16px] text-[#131313CC]">Fiction</p>
+                <div class="flex items-center gap-2"><p class="font-medium text-[16px] text-[#131313]/80">5.00</p>
+                    <img src="assets/Vector.png" alt="">
+                </div>
                 
             </div>
 
-    </div>
+    
 </div>
+<div class="border p-6 border-[#E5E7E8] rounded-xl">
+        <div class="flex justify-center bg-gray-100 rounded-lg py-7">
+            <img src="assets/book2.png" alt="" class="object-cover mt-4 ml-4">
+        </div>
+        <div>
+             <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-1.75 rounded-4xl gap-10 mt-2">Young Adult</button>
+            <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-3 rounded-4xl gap-10 mt-2">Identity</button>
+        </div>
+            <h3 class="font-bold text-[24px] text-[#131313] mt-4">The Catcher in the Rye</h3>
+            <p class="font-medium text-[16px] text-[#131313] mt-4 mb-6">By: Awlad Hossain</p>
+            <hr class="border border-dashed mt-1 mb-1 bg-[#F3F3F3]">
+            <div class="flex justify-between mt-6">
+                <p class="font-medium text-[16px] text-[#131313CC]">Fiction</p>
+                <div class="flex items-center gap-2"><p class="font-medium text-[16px] text-[#131313]/80">5.00</p>
+                    <img src="assets/Vector.png" alt="">
+                </div>
+                
+            </div>
+
+    
+        </div>
+<div class="border p-6 border-[#E5E7E8] rounded-xl">
+        <div class="flex justify-center bg-gray-100 rounded-lg py-7">
+            <img src="assets/book3.png" alt="" class="object-cover mt-4 ml-4">
+        </div>
+        <div>
+             <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-1.75 rounded-4xl gap-10 mt-2">Young Adult</button>
+            <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-3 rounded-4xl gap-10 mt-2">Identity</button>
+        </div>
+            <h3 class="font-bold text-[24px] text-[#131313] mt-4">The Catcher in the Rye</h3>
+            <p class="font-medium text-[16px] text-[#131313] mt-4 mb-6">By: Awlad Hossain</p>
+            <hr class="border border-dashed mt-1 mb-1 bg-[#F3F3F3]">
+            <div class="flex justify-between mt-6">
+                <p class="font-medium text-[16px] text-[#131313CC]">Fiction</p>
+                <div class="flex items-center gap-2"><p class="font-medium text-[16px] text-[#131313]/80">5.00</p>
+                    <img src="assets/Vector.png" alt="">
+                </div>
+                
+            </div>
+
+    
+</div>
+<div class="border p-6 border-[#E5E7E8] rounded-xl">
+        <div class="flex justify-center bg-gray-100 rounded-lg py-7">
+            <img src="assets/book4.png" alt="" class="object-cover mt-4 ml-4">
+        </div>
+        <div>
+             <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-1.75 rounded-4xl gap-10 mt-2">Young Adult</button>
+            <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-3 rounded-4xl gap-10 mt-2">Identity</button>
+        </div>
+            <h3 class="font-bold text-[24px] text-[#131313] mt-4">The Catcher in the Rye</h3>
+            <p class="font-medium text-[16px] text-[#131313] mt-4 mb-6">By: Awlad Hossain</p>
+            <hr class="border border-dashed mt-1 mb-1 bg-[#F3F3F3]">
+            <div class="flex justify-between mt-6">
+                <p class="font-medium text-[16px] text-[#131313CC]">Fiction</p>
+                <div class="flex items-center gap-2"><p class="font-medium text-[16px] text-[#131313]/80">5.00</p>
+                    <img src="assets/Vector.png" alt="">
+                </div>
+                
+            </div>
+
+    
+</div>
+<div class="border p-6 border-[#E5E7E8] rounded-xl">
+        <div class="flex justify-center bg-gray-100 rounded-lg py-7">
+            <img src="assets/book5.png" alt="" class="object-cover mt-4 ml-4">
+        </div>
+        <div>
+             <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-1.75 rounded-4xl gap-10 mt-2">Young Adult</button>
+            <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-3 rounded-4xl gap-10 mt-2">Identity</button>
+        </div>
+            <h3 class="font-bold text-[24px] text-[#131313] mt-4">The Catcher in the Rye</h3>
+            <p class="font-medium text-[16px] text-[#131313] mt-4 mb-6">By: Awlad Hossain</p>
+            <hr class="border border-dashed mt-1 mb-1 bg-[#F3F3F3]">
+            <div class="flex justify-between mt-6">
+                <p class="font-medium text-[16px] text-[#131313CC]">Fiction</p>
+                <div class="flex items-center gap-2"><p class="font-medium text-[16px] text-[#131313]/80">5.00</p>
+                    <img src="assets/Vector.png" alt="">
+                </div>
+                
+            </div>
+
+    
+</div>
+<div class="border p-6 border-[#E5E7E8] rounded-xl">
+        <div class="flex justify-center bg-gray-100 rounded-lg py-7">
+            <img src="assets/book6.png" alt="" class="object-cover mt-4 ml-4">
+        </div>
+        <div>
+             <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-1.75 rounded-4xl gap-10 mt-2">Young Adult</button>
+            <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-3 rounded-4xl gap-10 mt-2">Identity</button>
+        </div>
+            <h3 class="font-bold text-[24px] text-[#131313] mt-4">The Catcher in the Rye</h3>
+            <p class="font-medium text-[16px] text-[#131313] mt-4 mb-6">By: Awlad Hossain</p>
+            <hr class="border border-dashed mt-1 mb-1 bg-[#F3F3F3]">
+            <div class="flex justify-between mt-6">
+                <p class="font-medium text-[16px] text-[#131313CC]">Fiction</p>
+                <div class="flex items-center gap-2"><p class="font-medium text-[16px] text-[#131313]/80">5.00</p>
+                    <img src="assets/Vector.png" alt="">
+                </div>
+                
+            </div>
+
+    
+</div>
+<div class="border p-6 border-[#E5E7E8] rounded-xl">
+        <div class="flex justify-center bg-gray-100 rounded-lg py-7">
+            <img src="assets/book7.png" alt="" class="object-cover mt-4 ml-4">
+        </div>
+        <div>
+             <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-1.75 rounded-4xl gap-10 mt-2">Young Adult</button>
+            <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-3 rounded-4xl gap-10 mt-2">Identity</button>
+        </div>
+            <h3 class="font-bold text-[24px] text-[#131313] mt-4">The Catcher in the Rye</h3>
+            <p class="font-medium text-[16px] text-[#131313] mt-4 mb-6">By: Awlad Hossain</p>
+            <hr class="border border-dashed mt-1 mb-1 bg-[#F3F3F3]">
+            <div class="flex justify-between mt-6">
+                <p class="font-medium text-[16px] text-[#131313CC]">Fiction</p>
+                <div class="flex items-center gap-2"><p class="font-medium text-[16px] text-[#131313]/80">5.00</p>
+                    <img src="assets/Vector.png" alt="">
+                </div>
+                
+            </div>
+
+    
+</div>
+<div class="border p-6 border-[#E5E7E8] rounded-xl">
+        <div class="flex justify-center bg-gray-100 rounded-lg py-7">
+            <img src="assets/book8.png" alt="" class="object-cover mt-4 ml-4">
+        </div>
+        <div>
+             <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-1.75 rounded-4xl gap-10 mt-2">Young Adult</button>
+            <button class="font-medium text-[16px] text-[#23BE0A] bg-[#23BE0A0D] px-4 py-3 rounded-4xl gap-10 mt-2">Identity</button>
+        </div>
+            <h3 class="font-bold text-[24px] text-[#131313] mt-4">The Catcher in the Rye</h3>
+            <p class="font-medium text-[16px] text-[#131313] mt-4 mb-6">By: Awlad Hossain</p>
+            <hr class="border border-dashed mt-1 mb-1 bg-[#F3F3F3]">
+            <div class="flex justify-between mt-6">
+                <p class="font-medium text-[16px] text-[#131313CC]">Fiction</p>
+                <div class="flex items-center gap-2"><p class="font-medium text-[16px] text-[#131313]/80">5.00</p>
+                    <img src="assets/Vector.png" alt="">
+                </div>
+                
+            </div>
+
+    
+</div>
+
 
 </section>
 
+                   
 
 </main>
 </body>
